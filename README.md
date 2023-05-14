@@ -2,6 +2,17 @@
  
  ### Shayan Talaei 98109548, Alireza Eiji 98101193
 
+In this experiment we have implemented three creational patterns, Abstract Factory, Builder, and Prototype. 
+
+#### Abstract Factory
+For abstarct factory pattern we designed a IVehicleFactory which produces ICar and IBike. These two classes are abstract classes. To instanciate an IBike or ICar we designed two concrete classes for each of them RegularBike, RegularCar, SportBike, and SportCar. Note that the VehicleFactory itself is also an abstraction and there are two concrete versions of that, RegularVehicleFactory and SportVehicleFactory.
+
+#### Builder
+We implemented two builder classes, CarBuilder and MotorCycle Builder. Each class implements the Builder interface and override building functions for the vehicles. Each buildedr class builds a product, in our case a vehicle. There are two types of vehicle namely car and motorcyle which is identifiable by an enum. The builder can instanciate a Vehicle and set its components such as doors and wheels.
+
+#### Prototype
+There are two prototype classes, Person and Book. Each Person has some features and each Book has some features as well as a Person as its writer. To clone a Book or a Person, we can call the clone function on an object. These classes are prototype classes which enables them to clone themselves. By cloning them, they can make a copy of themselves same as them but with different references.
+
 
 ## Questions
 
