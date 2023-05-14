@@ -2,6 +2,8 @@
  
  ### Shayan Talaei 98109548, Alireza Eiji 98101193
 
+### Pattern descriptions
+
 In this experiment we have implemented three creational patterns, Abstract Factory, Builder, and Prototype. 
 
 #### Abstract Factory
@@ -13,6 +15,19 @@ We implemented two builder classes, CarBuilder and MotorCycle Builder. Each clas
 #### Prototype
 There are two prototype classes, Person and Book. Each Person has some features and each Book has some features as well as a Person as its writer. To clone a Book or a Person, we can call the clone function on an object. These classes are prototype classes which enables them to clone themselves. By cloning them, they can make a copy of themselves same as them but with different references.
 
+### Tests
+
+There has been compliation error in the tests.
+![compileErrorInTests](https://github.com/AlirezaEiji191379/SELab6/blob/master/Screenshots/1_compileErrorInTests.png)
+
+We implemented the tests as following.
+![implementTest](https://github.com/AlirezaEiji191379/SELab6/blob/master/Screenshots/2_implementTest.png)
+
+Tests failed initially, suggesting that we need to change the implementation of our classes.
+![testFailed](https://github.com/AlirezaEiji191379/SELab6/blob/master/Screenshots/3_test_failed.png)
+
+After solving the problem in the code, we can see the tests are passed as in the picture.
+![makeTestPassed](https://github.com/AlirezaEiji191379/SELab6/blob/master/Screenshots/4_makeTestPassed.png)
 
 ## Questions
 
